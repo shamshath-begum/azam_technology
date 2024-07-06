@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    /* height: 100vh; */
+
+}
+.home{
+background-image: url("../OIP.jpeg");
+background-size: cover;
+background-position: center;
+height: 100vh;
+
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index:100; */
+
+}
+.logo{
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(16, 230, 230);
+}
+.navbar a{
+    font-size: 25px;
+    color:rgb(16, 230, 230) ;
+    margin-left: 65px;
+    font-weight: 700;
+}
+.navbar a:hover,.navbar a:active{
+    color:rgb(6, 27, 27) ;
+}
+#menu-icon{
+    font-size: 50px;
+    color:rgb(16, 230, 230);
+    display: none;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(16, 230, 230);
+    font-size: 50px;
+}
+/* ABOUT SECTION */
+.about h1{
+    text-align: center;
+}
+#line{
+width:100px ;
+background-color: rgb(70, 95, 95);
+/* margin-top: 100px; */
+/* text-align: center; */
+/* border: 1px solid black; */
+}
+#line_inner{
+    width:30px ;
+    text-align: center;
+background-color: rgb(12, 238, 238);
+/* margin-bottom:2px ; */
+}
+p{
+    margin-top: 100px;
+}
